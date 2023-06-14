@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Weer App</string>
+    <string name="app_title">Weer App</string>
+    <string name="credits">Aiden Raaphorst V2B</string>
+    <string name="location_input_hint">Plaatsnaam hier invullen</string>
+    <string name="back_button">Terug</string>
+    <string name="w_clear_button">Haal info weg</string>
+    <string name="placeholder_location_landcode">Plaats, LANDCODE</string>
+    <string name="placeholder_degrees_celsius">Graden Celsius</string>
+    <string name="placeholder_weather_info">Weer informatie</string>
+    <string name="placeholder_wind">Wind</string>
+    <string name="placeholder_humidity">Vochtigheid</string>
+    <string name="placeholder_pressure">Druk</string>
+    <string name="earthquakes_netherlands_button">Aardbevingen rondom Nederland</string>
+    <string name="earthquakes_worldwide_button">Aardbevingen Wereldwijd</string>
+    <string name="weather_button">Het Weer</string>
+    <string name="weather_title">Het Weer</string>
+    <string name="earthquakes_netherlands_title">Aardbevingen rondom Nederland</string>
+    <string name="earthquakes_worldwide_title">Aardbevingen wereldwijd</string>
+    <string name="loading">Laden...</string>
+</resources>
