@@ -47,15 +47,16 @@ public class EarthquakesNetherlandsActivity extends AppCompatActivity {
                 Request.Method.GET,
                 XML_EARTHQUAKE_DATA_URL,
                 (response) -> {
-                    System.out.println(response);
-
                     try {
                         addEarthquakesToView(response);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
                 },
-                (error) -> error.printStackTrace()
+                (error) -> {
+                    System.out.println(error);
+                    error.printStackTrace();
+                }
         );
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
