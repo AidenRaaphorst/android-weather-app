@@ -70,6 +70,7 @@ public class WeatherActivity extends AppCompatActivity {
             windText.setText(getString(R.string.placeholder_wind));
             humidityText.setText(getString(R.string.placeholder_humidity));
             pressureText.setText(getString(R.string.placeholder_pressure));
+            weatherIcon.setImageIcon(null);
         });
 
         backButton.setOnClickListener((view) -> onBackPressed());
@@ -137,8 +138,7 @@ public class WeatherActivity extends AppCompatActivity {
 
             @Override
             public void onError(VolleyError error) {
-                System.out.println("test1");
-               error.printStackTrace();
+                error.printStackTrace();
             }
         });
     }
@@ -180,7 +180,6 @@ public class WeatherActivity extends AppCompatActivity {
 
             @Override
             public void onError(VolleyError error) {
-                System.out.println("test2");
                 error.printStackTrace();
             }
         });
