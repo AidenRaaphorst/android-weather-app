@@ -18,7 +18,7 @@
             android:textSize="16sp" />
 
     <TextView
-            android:text="Aardbevingen wereldwijd"
+            android:text="@string/earthquakes_worldwide_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/earthquakesWorldwideTitle"
@@ -49,7 +49,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:id="@+id/wwSvLayout" />
+                android:id="@+id/wwSvLayout" >
+
+            <TextView
+                    android:text="@string/loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/loading" />
+        </LinearLayout>
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
